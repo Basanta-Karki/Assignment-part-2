@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1519px;
+            height: 900px;
+            background-color: rgb(12, 59, 46);
+            color: white;    
+        }
+        
+        
+        .container.first,.second{
+            width: 650px;
+            float: right;
+            height: 900px;
+        }
+       
+        h1{
+            font-size: 80px;
+            padding-left: 60px;
+            padding-top: 70px;
+        }
+        p{
+            padding-left: 60px;
+            padding-top: 50px;
+            font-size: 40px;
+        }
+        .Roundbutton{
+            border: none;
+            color: black;
+            background-color: rgb(255, 186, 0);
+            border-radius: 40px;
+            height: 50px;
+            width: 400px;
+            position: absolute;left: 60px;
+            top: 670px;         
+        }
+     
+        @media(max-width:1230px){
+            .second img{
+                height: 250px;
+            }
+        }
+
+        @media(max-width:1050px){
+            .container .first, .second{
+                width:100%
+            }
+        }
+
+        .second img{
+            height:900px;
+            width: 750px;
+            position: absolute;top: 0px;
+            
+        }
+        
+        @media(max-width:500px){
+            .second img{
+                display: block;
+                margin: auto;
+                width: 100%;
+                height: 20%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="first">
+
+            <h1>
+                Reach Out
+            </h1><br><br>
+
+            <p>
+                Conference Secretariat<br>
+                163 Woodlands Place<br>               
+                Algies Bay, Rodney 0920
+            </p>
+
+            <br>
+
+            <p>
+                123-456-7890<br>
+                hello@reallygreatsite.com<br>
+                @reallygreatsite
+            </p>
+
+        </div>
+
+        <div class="second">
+            <img src="pexels-fauxels-3184360.jpg" alt="photo">
+        </div>
+
+        <button class="Roundbutton">RESERVE YOUR SEAT</button>  
+
+    </div>
+    
+</body>
+</html>

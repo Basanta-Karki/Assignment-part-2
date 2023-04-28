@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .design{
+            width: 1519px;
+            height: 700px;
+            background-color: rgb(12, 59, 46);
+            color: white;    
+        }
+        .left,p{
+            font-size: xx-large;
+        }
+        .left{
+            padding-left: 60px;
+            padding-top: 100px;
+        }
+        .design .left, .right{
+            width: 650px;
+            float: left;
+            height: 600px;           
+        }
+
+        .Button{
+            border: none;
+            color: black;
+            background-color: rgb(255, 186, 0);
+            border-radius: 40px;
+            position: absolute;top: 600px;right: 1490px;left: 60px;
+            bottom: 60px;
+            width: 400px;
+            height: 50px;
+        }
+
+        
+        @media(max-width:1230px){
+            .right img{
+                height: 250px;
+            }
+        }
+
+        @media(max-width:1050px){
+            .design .left, .right{
+                width:100%
+            }
+        }
+
+        .right img{
+            height:700px;
+            width: 900px;
+        }
+        
+        @media(max-width:500px){
+            .right img{
+                display: block;
+                margin: auto;
+                width: 100%;
+                height: 20%;
+            }
+        }
+           
+    </style>
+</head>
+<body>
+
+    <div class="design">
+
+        <div class="left">
+
+
+            <h1>
+                Selling online <br>
+                is vital to <br>
+                business growth.
+            </h1><br>
+            
+            <p>2025 Grow Your e-Commerce Conference</p> 
+            <br><br>
+            
+           
+            <p>September 16-18,2025 <br>
+            Paragon One Plaza and Sky Garden</p>
+            
+
+        </div>
+
+        <div class="right">
+            <img src="pexels-andrea-piacquadio-3860637.jpg" alt="Photo">
+        </div>
+
+        <button class="Button">BOOK NOW FOR EARLY BIRD PRICES</button>
+
+    </div>  
+    
+</body>
+</html>
